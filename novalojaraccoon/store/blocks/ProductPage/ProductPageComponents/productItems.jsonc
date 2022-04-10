@@ -1,0 +1,7 @@
+{
+  "product-installments#section-product":{
+    "props":{
+      "message": "{installmentsTotalValue} em até {installmentsNumber}x"
+    }
+  }
+}

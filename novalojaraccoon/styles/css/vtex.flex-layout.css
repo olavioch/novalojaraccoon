@@ -92,3 +92,29 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+.flexCol--productDesc{
+  padding: 28px 24px 0;
+  box-shadow: 0px -4px 4px #00000024;
+  border-radius: 25px;
+}
+
+/*banner do produto*/
+.flexRow--bannerProduct{
+  background-color: #242424;
+  padding: 24px;
+}
+
+.flexCol--bannerProduct{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexColChild--bannerProduct:first-child{
+  margin-right: 10px;
+}
+
+.flexRow--othersProducts{
+  background-color: #242424;
+}

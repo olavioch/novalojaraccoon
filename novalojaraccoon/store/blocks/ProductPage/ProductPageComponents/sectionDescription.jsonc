@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": ["rich-text#description","product-description"]
+  },
+  "rich-text#description": {
+    "props": {
+      "text": "#### **Descrição**"
+    }
+  }
+}

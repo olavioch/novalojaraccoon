@@ -1,0 +1,13 @@
+{
+  "store.product": {
+    "children": [
+      "condition-layout.product#availability",
+      "flex-layout.row#banner-product",
+      "flex-layout.row#description",
+      "product-specification-group#table",
+      "product-reviews",
+      "product-questions-and-answers",
+      "flex-layout.row#others-products"
+    ]
+  }
+}

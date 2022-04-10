@@ -1,0 +1,68 @@
+{
+  "flex-layout.row#others-products":{
+    "children": [
+      "rich-text#others-products",
+      "list-context.product-list#others-products",
+      "image#raccoon-monks",
+      "rich-text#see-again",
+      "list-context.product-list#others-products"
+    ],
+    "props":{
+      "blockClass": "othersProducts"
+    }
+  },
+  "rich-text#others-products": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "text": "### outros produtos",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "textBannerProduct"
+    }
+  },
+  "rich-text#see-again": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "text": "### ver novamente",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "textBannerProduct"
+    }
+  },
+  "image#raccoon-monks": {
+    "props": {
+      "src": "assets/imgs/raccoon.svg",
+      "blockClass": "raccoonMonks"
+    }
+  },
+  "list-context.product-list#others-products":{
+    "blocks": ["product-summary.shelf#others-products"],
+    "children": ["slider-layout#others-products"]
+  },
+  "product-summary.shelf#others-products":{
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-price",
+      "product-installments"
+    ]
+  },
+  "slider-layout#others-products":{
+    "props":{
+      "showPaginationDots":{
+        "mobile":"never"
+      },
+      "showNavigationArrows":{
+        "mobile":"never"
+      },
+      "infinte": true,
+      "centerMode": "to-the-left",
+      "itemsPerPage":{
+        "phone": 1
+      }
+    }
+  }
+}

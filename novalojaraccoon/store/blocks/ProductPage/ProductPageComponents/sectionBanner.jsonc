@@ -1,0 +1,74 @@
+{
+  "flex-layout.row#banner-product":{
+    "children": ["flex-layout.col#banner1","flex-layout.col#banner2","flex-layout.col#banner3"],
+    "props":{
+      "blockClass": "bannerProduct"
+    }
+  },
+  "flex-layout.col#banner1":{
+    "children":["image#banner1", "rich-text#banner1"],
+    "props": {
+      "blockClass":"bannerProduct"
+    }
+  },
+  "image#banner1": {
+    "props": {
+      "src": "assets/imgs/money.svg",
+      "blockClass": "imgBannerProduct"
+    }
+  },
+  "rich-text#banner1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "text": "**Frete Grátis**\nLorem ipsum sapien lorem congue a faucibus, feugiat lectus elit neque ipsum.",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "textBannerProduct"
+    }
+  },
+  "flex-layout.col#banner2":{
+    "children":["image#banner2", "rich-text#banner2"],
+    "props": {
+      "blockClass":"bannerProduct"
+    }
+  },
+  "image#banner2": {
+    "props": {
+      "src": "assets/imgs/airplane.svg",
+      "blockClass": "imgBannerProduct"
+    }
+  },
+  "rich-text#banner2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "text": "**Troca facilitada**\nLorem ipsum sapien lorem congue a faucibus, feugiat lectus elit neque ipsum.",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "textBannerProduct"
+    }
+  },
+  "flex-layout.col#banner3":{
+    "children":["image#banner3", "rich-text#banner3"],
+    "props": {
+      "blockClass":"bannerProduct"
+    }
+  },
+  "image#banner3": {
+    "props": {
+      "src": "assets/imgs/voice.svg",
+      "blockClass": "imgBannerProduct"
+    }
+  },
+  "rich-text#banner3": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "text": "**Atendimento 24h**\nLorem ipsum sapien lorem congue a faucibus, feugiat lectus elit neque ipsum.",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "textBannerProduct"
+    }
+  }
+}

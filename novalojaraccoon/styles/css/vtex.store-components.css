@@ -105,9 +105,19 @@
   padding: 0;
   width: 100%;
 }
+.productImage{
+  height: 400px;
+}
 
 .productNameContainer {
-  color: #3f3f40;
+  color: #2D2D2D;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
 }
+
+/* banner do produto*/
+.imageElement--imgBannerProduct{
+  width: 130px;
+  height: auto;
+}
+
