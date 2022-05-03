@@ -2,6 +2,8 @@
   max-width: 96rem;
   padding-left: .5rem;
   padding-right: .5rem;
+  position: relative;
+  z-index: 2;
 }
 
 .inlineContainer {
@@ -14,4 +16,8 @@
 
 .star--empty {
   color: #FFB100;
+}
+
+.reviewsHeading{
+  margin-top: 0;
 }

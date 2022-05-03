@@ -1,3 +1,19 @@
+.flexRow{
+  height: inherit;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+.flexCol{
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+.flexRowContent{
+  margin: 0;
+  padding: 0;
+}
+
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
@@ -97,6 +113,17 @@
   padding: 28px 24px 0;
   box-shadow: 0px -4px 4px #00000024;
   border-radius: 25px;
+  background-color: #fff;
+}
+
+/*slide do produto*/
+.flexCol--productSpace{
+  height: 432px;
+}
+
+.flexCol--productSlideImage{
+  position: fixed;
+  z-index: 0;
 }
 
 /*banner do produto*/
