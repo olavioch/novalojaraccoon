@@ -22,7 +22,7 @@
       "paddingTop": 7,
       "paddingBottom": 7
     },
-    "children": ["flex-layout.col#stack",  "flex-layout.col#product-space", "flex-layout.col#right-col"]
+    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
 
   //caso não houver o produto
@@ -34,7 +34,7 @@
       "paddingTop": 7
     },
     "children": [
-      "flex-layout.col#stack", "flex-layout.col#product-space", "flex-layout.col#right-col-availability"
+      "flex-layout.col#stack", "flex-layout.col#right-col-availability"
     ]
   },
 
@@ -76,14 +76,13 @@
   //componentes gerais
     //slide de imagens
     "flex-layout.col#stack": {
-      "children": ["stack-layout#slide-image"],
+      "children": ["stack-layout"],
       "props": {
         "width": "60%",
-        "rowGap": 0,
-        "blockClass": "productSlideImage"
+        "rowGap": 0
       }
     },
-    "stack-layout#slide-image": {
+    "stack-layout": {
       "props": {
         "blockClass": "product"
       },
@@ -99,12 +98,6 @@
         "specificationName": "On Sale",
         "visibleWhen": "True",
         "displayValue": "SPECIFICATION_NAME"
-      }
-    },
-    //space parallax
-    "flex-layout.col#product-space": {
-      "props":{
-        "blockClass":"productSpace"
       }
     },
 
